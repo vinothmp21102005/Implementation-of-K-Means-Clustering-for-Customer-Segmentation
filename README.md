@@ -69,6 +69,7 @@ plt.title("Customer Segments")
 ```
 
 ## Output:
+
 ![Screenshot 2024-10-18 205024](https://github.com/user-attachments/assets/03029fec-cd69-4724-8edb-2f2557d12033)
 
 ![Screenshot 2024-10-18 205032](https://github.com/user-attachments/assets/62b3bef7-8de4-433e-81e5-1a9d9481381e)

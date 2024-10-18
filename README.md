@@ -30,8 +30,11 @@ RegisterNumber: 212223240182
 import pandas as pd
 import matplotlib.pyplot as plt
 data=pd.read_csv("Mall_Customers.csv")
+print("data.head()")
 data.head()
+print("data.info()")
 data.info()
+print("data.isnull()")
 data.isnull().sum()
 from sklearn.cluster import KMeans
 wcss=[]
@@ -66,6 +69,13 @@ plt.title("Customer Segments")
 ```
 
 ## Output:
+![Screenshot 2024-10-18 205024](https://github.com/user-attachments/assets/03029fec-cd69-4724-8edb-2f2557d12033)
+
+![Screenshot 2024-10-18 205032](https://github.com/user-attachments/assets/62b3bef7-8de4-433e-81e5-1a9d9481381e)
+
+![Screenshot 2024-10-18 205037 (1)](https://github.com/user-attachments/assets/333939c4-c2a1-44fa-94c5-fc2e6cd0f9e9)
+
+
 ![unnamed](https://github.com/user-attachments/assets/ae8da30d-7bb7-464a-8f61-3afa45939fc0)
 
 ![unnamed](https://github.com/user-attachments/assets/7ea60be4-1291-4e2b-9617-104031d4423f)
